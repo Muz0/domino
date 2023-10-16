@@ -1,0 +1,23 @@
+{
+  "name": "domino",
+  "version": "1.0.0",
+  "description": "Domino's cheat app, developed for tracking the current state if the game",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muz0/domino.git"
+  },
+  "keywords": [
+    "js",
+    "index.html"
+  ],
+  "author": "Muz0",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Muz0/domino/issues"
+  },
+  "homepage": "https://github.com/Muz0/domino#readme"
+}
