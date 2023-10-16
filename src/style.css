@@ -1,0 +1,59 @@
+/* // reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px; /* Default maximum width */
+  margin-left: auto; /* Horizontally center the content */
+  margin-right: auto; /* Horizontally center the content */
+  padding-left: 15px; /* Add left padding */
+  padding-right: 15px; /* Add right padding */
+}
+
+.container-fluid {
+  width: 100%; /* Span full viewport width */
+  padding-left: 15px; /* Add left padding */
+  padding-right: 15px; /* Add right padding */
+}
+
+
+
+
+#root{
+
+  width: 100%;
+
+  > div{
+    > h2 { /* and this piece of code are workng in absolute*/
+      position: absolute;
+      align-content: center;
+      margin: -20px;
+    }
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    > .tile{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 15px;
+      width: 100px;
+      border: 1px solid black;
+      border-radius: 5px;
+      border-collapse: collapse;
+      > div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        font-size: 25px;
+      }
+    }
+  }
+}
